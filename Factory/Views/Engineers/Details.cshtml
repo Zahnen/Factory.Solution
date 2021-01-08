@@ -4,16 +4,23 @@
 
 @model Factory.Models.Engineer
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <h1>Engineer Details</h1>
-      <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
-      <h3>Degree/Certification: @Html.DisplayFor(model => model.Degree)</h3>
-    </div>
-    <div class="col-sm-6">
-      <h1>Approved to Maintain/Repair</h1>
-      <h3>Placeholder column, will hold Machines Engineer is associated with.</h3>
-    </div>
+<div class="row">
+  <div class="col-sm-6">
+    <h1>Engineer Details</h1>
+    <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
+    <h3>Degree/Certification: @Html.DisplayFor(model => model.Degree)</h3>
+  </div>
+  <div class="col-sm-6">
+    <h1>Approved to Maintain/Repair</h1>
+    <ul>
+      @if (@Model.Machines.Count == 0)
+      {
+        <h3>No machines are approved to be repaired by @Model.Name. Add an approval with the button below.</h3>
+      }
+      @foreach(var join in Model.Machines)
+      {
+        <li>@join.Machine.Name</li>
+      }
+    <ul>
   </div>
 </div>
