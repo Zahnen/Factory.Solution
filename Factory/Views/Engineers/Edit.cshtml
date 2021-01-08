@@ -8,11 +8,13 @@
 <hr>
 @using (Html.BeginForm())
 {
+  @Html.HiddenFor(model => model.EngineerId)
+
   @Html.Label("Name")
   @Html.TextBoxFor(model => model.Name)
 
   @Html.Label("Degree/Certification")
   @Html.TextBoxFor(model => model.Degree)
 
-  <input type="submit" value="Save Changes" class="btn btn-default" />
+  <input type="submit" value="Save" class="btn btn-default" />
 }
