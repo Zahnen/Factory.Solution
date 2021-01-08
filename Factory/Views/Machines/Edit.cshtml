@@ -1,0 +1,23 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Factory.Models.Machine
+
+<h1>Edit @Model.Name</h1>
+<hr>
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.MachineId)
+
+  @Html.Label("Name")
+  @Html.TextBoxFor(model => model.Name)
+
+  @Html.Label("Machine Type")
+  @Html.TextBoxFor(model => model.Type)
+
+  @Html.Label("Known Issues")
+  @Html.TextBoxFor(model => model.Issues)
+
+  <input type="submit" value="Save" class="btn btn-default" />
+}
