@@ -22,3 +22,4 @@ C:\Users\Zahnen\Desktop\Factory.Solution\Factory\obj\Debug\netcoreapp2.2\Factory
 C:\Users\Zahnen\Desktop\Factory.Solution\Factory\obj\Debug\netcoreapp2.2\Factory.dll
 C:\Users\Zahnen\Desktop\Factory.Solution\Factory\obj\Debug\netcoreapp2.2\Factory.pdb
 C:\Users\Zahnen\Desktop\Factory.Solution\Factory\obj\Debug\netcoreapp2.2\Factory.csproj.CopyComplete
+C:\Users\Zahnen\Desktop\Factory.Solution\Factory\obj\Debug\netcoreapp2.2\Razor\Views\Engineers\Index.g.cshtml.cs
