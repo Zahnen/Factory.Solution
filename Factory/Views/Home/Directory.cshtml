@@ -1,0 +1,31 @@
+@{
+  Layout = "_Layout";
+}
+
+@using Factory.Models
+
+<h1>Directory</h1>
+<hr>
+<div class="row">
+  <div class="col-sm-6">
+    <h1>Engineers</h1>
+    @foreach (Engineer engineer in ViewBag.Engineers)
+    {
+      <div class="engineerInfo">
+        <p>@Html.ActionLink($"{engineer.Name}", "Details", "Engineers", new { id = engineer.EngineerId } )</p>
+        <p>@engineer.Degree</p>
+      </div>
+    }
+  </div>
+  <div class="col-sm-6">
+    <h1>Machines</h1>
+    @foreach (Machine machine in ViewBag.Machines)
+    {
+      <div class="machineInfo">
+        <p>@Html.ActionLink($"{machine.Name}", "Details", "Engineers", new { id = machine.MachineId } )</p>
+        <p>@machine.Type</p>
+        <p>@machine.Issues</p>        
+      </div>
+    }
+  </div>
+</div>
