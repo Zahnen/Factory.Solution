@@ -1,0 +1,24 @@
+.nav-glyph {
+  background-color: #01497c;
+  color: #f0f8ff;
+}
+
+.btn {
+  background-color: #01497c;
+  color: #f0f8ff;
+}
+
+.nav-text{
+  color: #f0f8ff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  color: #01497c;
+  font-family: 'Work Sans', sans-serif;
+}
+.button-display {
+  border-radius: 25px;
+  max-width: 140px;
+  margin-top: 2%;
+}
