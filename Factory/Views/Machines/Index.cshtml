@@ -17,5 +17,6 @@
     <p>@machine.Type</p>
   </div>
 }
-
-@Html.ActionLink("Register a new Engineer", "Create")
+<a href='@Url.Action("Create")'>
+    <img class="button-display" src='@Url.Content("~/img/AddMachine.png")' />
+</a>

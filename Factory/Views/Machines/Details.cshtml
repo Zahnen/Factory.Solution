@@ -23,11 +23,18 @@
         @using (Html.BeginForm("DeleteApproval", "Machines"))
         {
           @Html.Hidden("joinId", @join.EngineerMachineId)
-          <input type="submit" value="Remove Approval"/>
+          <button class="btn btn-default" type="submit">Remove</button>
         }
       }
     </ul>
+    <div class="centered-buttons">
+      <a href='@Url.Action("AddEngineer", new { id = Model.MachineId })'>
+          <img class="button-display" src='@Url.Content("~/img/Approval.png")' />
+      </a>
+      <a href='@Url.Action("Delete", new { id = Model.MachineId })'>
+          <img class="button-display" src='@Url.Content("~/img/DeleteMachine.png")' />
+      </a>
+    </div>
   </div>
 </div>
 
-@Html.ActionLink("Add Approval", "AddEngineer", new { id = Model.MachineId })
