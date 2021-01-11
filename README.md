@@ -1,4 +1,4 @@
-# **Accelerate Project Management System**
+# --Accelerate Project Management System--
 ### An MVC application written in C#, January 8, 2021
 
 #### By [Zahnen Garner](https://www.github.com/zahnen)
@@ -8,6 +8,10 @@
 _Accelerate is a project management tool developed for a fictional factory as an independent project while studying at Epicodus. Accelerate enables project managers to quickly delegate repair and maintenance tasks by accessing a database that keeps track of machines, engineers, and approvals for engineers certified to maintain specific machines. The application allows users to manage engineers and machines via a many-to-many relationship within a database. The application was created to apply concepts I learned this week which include the basics of code-first migration with EF Core & MySQL, establishing relationships within databases using join tables, using ASP.NET Core, and implementing CRUD functionality within an MVC application._  
 
 ---  
+
+## 🔍 Demo
+
+![GifDemo](https://media.giphy.com/media/m1nqJ4t8OKwVzmoH8y/giphy.gif)
 
 ## 📘 User Stories
 
@@ -112,20 +116,20 @@ Running this project locally requires:
 - [MySQL/MySQL Workbench](https://www.mysql.com/).
 - A loose familiarity with MySQL databases & navigating through local files using your command line program such as Terminal or Gitbash (e.g., "cd Desktop").
 
-Please ensure all of the aforementioned softwares are installed on your device or refer to the previous links to begin installion. If you have questions on the installation process, please don't hesitate to [reach out!](mailto:zahnen@gmail.com)
+Please ensure all of the aforementioned softwares are installed on your device or refer to the previous links to begin installation. If you have questions on the installation process, please don't hesitate to [reach out!](mailto:zahnen@gmail.com)
 
 ### 1. Clone or Download the project:
 
 #### To Clone:
-* _Open your preferred command line program._
-* _Ensure you are within the directory you'd like the project directory to be created in. (e.g., "cd Desktop" if you'd like to clone the project to your desktop)_
-* _Enter the command "$ git clone https://github.com/zahnen/Factory.Solution" in your command line._
+- Open your preferred command line program.
+- Navigate to the location or directory you'd like the project directory to be created in. (e.g., "cd Desktop" if you'd like to clone the project to your desktop)
+- Enter the command "$ git clone https://github.com/zahnen/Factory.Solution" in your command line.
 
 #### To Download:
-* _Navigate to the [project repository](https://github.com/zahnen/Factory.Solution) in your browser._
-* _Click the green "Code" button toward the top right of the page._
-* _Click "Download ZIP" and extract the files._
-* _Open the newly-downloaded project in your preferred code editor._
+- Navigate to the [project repository](https://github.com/zahnen/Factory.Solution) in your browser.
+- Click the green "Code" button toward the top right of the page.
+- Click "Download ZIP" and extract the files.
+- Open the newly-downloaded project in your preferred code editor.
 
 
 ### 2. Establish a MySQL database for using the project:
@@ -162,9 +166,9 @@ Please ensure all of the aforementioned softwares are installed on your device o
 
 ### 3. Run the project:
 
-* _Once the project is cloned and the MySQL database is established, use your preferred command line program to navigate to the directory titled "Factory" within the root directory created when cloning the project._
-* _To run the console application, enter "dotnet build" in your command line while still within the Factory directory. Follow this command with "dotnet run"_
-* _Your command line will open a server (likely "http://localhost:5000/"). Navigate to this URL in your browser to view the project._
+- Once the project is cloned and the MySQL database is established, use your preferred command line program to navigate to the directory titled "Factory" within the root directory created when cloning the project.
+- To run the console application, enter "dotnet build" in your command line while still within the Factory directory. Follow this command with "dotnet run"
+- Your command line will open a server (likely "http://localhost:5000/"). Navigate to this URL in your browser to view the project.
 
 ---  
 
@@ -182,29 +186,29 @@ There are no known bugs or issues at this time. If you come across any, please l
 
 ## ❓ Support and Contact Details
 
-* Zahnen Garner // zahnen@gmail.com
+- Zahnen Garner // zahnen@gmail.com
 
 ---  
 
 ## 💻 Technologies Used
 
 _This application required use of the following programs/languages/libraries to create:_
-* _[Microsoft Visual Studio Code](https://code.visualstudio.com/)_
-* _[Git/GitHub](https://github.com/)_
-* _[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
-* _[.NET Core v 2.2](https://dotnet.microsoft.com/download)_
-* _[ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started)_
-* _[ASP.NET Razor](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c)_
-* _[EF Core](https://docs.microsoft.com/en-us/ef/core/)_
-* _[MySQL/My SQL Workbench](https://www.mysql.com/)_
-* _[MySQL Designer](https://ondras.zarovi.cz/sql/demo/)_
-* _[Bootstrap](https://getbootstrap.com/)_
-* _[CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)_
+- _[Microsoft Visual Studio Code](https://code.visualstudio.com/)_
+- _[Git/GitHub](https://github.com/)_
+- _[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
+- _[.NET Core v 2.2](https://dotnet.microsoft.com/download)_
+- _[ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started)_
+- _[ASP.NET Razor](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c)_
+- _[EF Core](https://docs.microsoft.com/en-us/ef/core/)_
+- _[MySQL/My SQL Workbench](https://www.mysql.com/)_
+- _[MySQL Designer](https://ondras.zarovi.cz/sql/demo/)_
+- _[Bootstrap](https://getbootstrap.com/)_
+- _[CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)_
 
 ---  
 
 ## 📃  License
 
-*Licensed under MIT* 
+*Licensed under MIT*
 
 Copyright (c) 2020 Zahnen Garner
