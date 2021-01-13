@@ -9,6 +9,9 @@
     <h1>Engineer Details</h1>
     <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
     <h3>Degree/Certification: @Html.DisplayFor(model => model.Degree)</h3>
+    <a href='@Url.Action("Edit", new { id = Model.EngineerId })'>
+      <img class="button-display" src='@Url.Content("~/img/Edit.png")' />
+    </a>
   </div>
   <div class="col-sm-6">
     <h1>Approved to Maintain/Repair</h1>

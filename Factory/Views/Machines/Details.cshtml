@@ -9,6 +9,9 @@
     <h1>Machine Details</h1>
     <h3>Name: @Html.DisplayFor(model => model.Name)</h3>
     <h3>Known Issues: @Html.DisplayFor(model => model.Issues)</h3>
+    <a href='@Url.Action("Edit", new { id = Model.MachineId })'>
+      <img class="button-display" src='@Url.Content("~/img/Edit.png")' />
+    </a>
   </div>
   <div class="col-sm-6">
     <h1>Approved to be Maintained/Repaired By</h1>
