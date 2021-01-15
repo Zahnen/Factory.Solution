@@ -1,4 +1,4 @@
-# --Accelerate Project Management System--
+# Accelerate Project Management System
 ### An MVC application written in C#, January 8, 2021
 
 #### By [Zahnen Garner](https://www.github.com/zahnen)
